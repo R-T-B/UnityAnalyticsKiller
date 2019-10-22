@@ -1,0 +1,1 @@
+Just drag and drop in your KSP 1.8 install folder path Kerbal Space Program\KSP_x64_Data\Managed

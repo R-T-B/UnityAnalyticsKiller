@@ -7,12 +7,12 @@ https://github.com/R-T-B/UnityEngine.Analytics_NOTELEMETRY_KSP17
 A short FAQ Follows:
 
 Can't I just use Unity's Opt-out function?
-
-Sure, you can, if your game offers it (Kerbal does). It should work. Dunno. I used it before I made this and the servers were still "pinged" at least once every 30 minutes, but that doesn't mean much. Guess you just have to trust Unity.
+Sure, you can, if your game offers it (Kerbal does). It should work. Dunno. I used it before I made this and the servers were still "pinged" at least once every 30 minutes, but that doesn't mean much. Guess you just have to trust Unity. Or you can try this, if you read the source you can be assured nothing is sent at all: There's nothing logged and literally nothing to send.
 
 So, this transmits no data at all?
 
 Pretty close to nothing. It merely "pings" the main Unity Telemetry servers at boot (that seems unavoidable and is a core unity functionality), but if you examine the packets in Wireshark all fields should be null or blank strings. It should never contact the server again, and even if it does, it will still all be empty data. Literally the only string in any of my source code that it could possibly transmit is it's version, which is humourously set to "STOPMININGMYDATAUNITY1.0"
+
 
 Still, any contact at all beyond the initial "pings" is not ideal, and should be able to be overridden/stopped. If you detect any traffic to a unity controlled domain or ip using a tool like wireshark, and it's been more than 10 seconds after launch, you have a legitimate cause to open an issue at github. Please do so.
 

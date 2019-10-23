@@ -23,5 +23,5 @@ Still, any contact at all beyond the initial "pings" is not ideal, and should be
 
 So, I installed this in gamedata and nothing happened!
 
-God dang it bobby, read the manual. Your supposed to put it in KSPINstall\KSP_x64_Data\Managed, replacing your existing dlls (other Unity games, wherver your telemetry dlls are put them there and replace the originals. Maybe take a backup, who knows?)
+God dang it bobby, read the manual! You're supposed to put it in KSPINstall\KSP_x64_Data\Managed, replacing your existing dlls (other Unity games, wherver your telemetry dlls are put them there and replace the originals. Maybe take a backup, who knows?)
  

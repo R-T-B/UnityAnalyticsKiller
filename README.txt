@@ -1,7 +1,5 @@
-Just drag and drop in your KSP 1.8 install folder path Kerbal Space Program\KSP_x64_Data\Managed
+Just drag and drop in your KSP 1.7 install folder path Kerbal Space Program\KSP_x64_Data\Managed
 
 Built from the following super duper projects:
 
-https://github.com/R-T-B/Unity.Analytics.Tracker_NOTELEMETRY_KSP18
-https://github.com/R-T-B/Unity.Analytics.StandardEvents_NOTELEMETRY_KSP18
-https://github.com/R-T-B/Unity.Analytics.DataPrivacy_NOTELEMETRY_KSP18
+https://github.com/R-T-B/UnityEngine.Analytics_NOTELEMETRY_KSP17

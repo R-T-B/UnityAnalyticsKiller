@@ -1,10 +1,11 @@
 Just drag and drop in your KSP 1.8 install folder path Kerbal Space Program\KSP_x64_Data\Managed
 
-Built from the following super duper projects:
+Built from the following original-work super-duper projects:
 
 https://github.com/R-T-B/Unity.Analytics.Tracker_NOTELEMETRY_KSP18
 https://github.com/R-T-B/Unity.Analytics.StandardEvents_NOTELEMETRY_KSP18
 https://github.com/R-T-B/Unity.Analytics.DataPrivacy_NOTELEMETRY_KSP18
+https://github.com/R-T-B/UnityEngine.UnityAnalyticsModule_NOTELEMETRY_KSP18
 
 If you can't find me here, try here:
 https://www.techpowerup.com/forums/threads/a-random-tool-to-kill-unity-2019-telemetry-unityanalyticskiller.260370/
@@ -24,3 +25,8 @@ So, I installed this in gamedata and nothing happened!
 
 God dang it bobby, read the manual! You're supposed to put it in KSPINstall\KSP_x64_Data\Managed, replacing your existing dlls (other Unity games, wherver your telemetry dlls are put them there and replace the originals. Maybe take a backup, who knows?)
  
+Why is the release for 1.7 so...  old?  Also, it still transmits some data!
+
+1.7 and Unity 2017 support are an ongoing issue.  See here:
+
+https://github.com/R-T-B/UnityAnalyticsKiller/issues/2

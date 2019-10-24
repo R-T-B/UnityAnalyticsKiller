@@ -1,4 +1,4 @@
-Just drag and drop in your KSP 1.8 install folder path Kerbal Space Program\KSP_x64_Data\Managed
+Just drag and drop in your KSP 1.7/1.6 install folder path Kerbal Space Program\KSP_x64_Data\Managed
 
 Built from the following original-work super-duper projects:
 
@@ -25,8 +25,8 @@ So, I installed this in gamedata and nothing happened!
 
 God dang it bobby, read the manual! You're supposed to put it in KSPINstall\KSP_x64_Data\Managed, replacing your existing dlls (other Unity games, wherver your telemetry dlls are put them there and replace the originals. Maybe take a backup, who knows?).  Also, if you are playing Kerbal, please run the config patcher script for your platform to attain the best silence. (.cmd for windows, .sh for *nix/OSX)
  
-Why is the release for 1.7 still transmiting some data!?
+Why is the release for 1.7/1.6 still transmiting some data!?
 
-1.7 and Unity 2017 support are an ongoing issue.  You will probably need to patch the platform config file for most of these. See here for an example using KSP (which I include a patcher script for):
+Unity 2017 support are an ongoing issue.  You will probably need to patch the platform config file for most of these. See here for an example using KSP (which I include a patcher script for):
 
 https://github.com/R-T-B/UnityAnalyticsKiller/issues/2

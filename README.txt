@@ -23,7 +23,7 @@ Still, any contact at all beyond the initial "pings" is not ideal, and should be
 
 So, I installed this in gamedata and nothing happened!
 
-God dang it bobby, read the manual! You're supposed to put it in KSPINstall\KSP_x64_Data\Managed, replacing your existing dlls (other Unity games, wherver your telemetry dlls are put them there and replace the originals. Maybe take a backup, who knows?).  Also, if you are playing Kerbal, please run the config patcher script for your platform. (.cmd for windows, .sh for *nix/OSX)
+God dang it bobby, read the manual! You're supposed to put it in KSPINstall\KSP_x64_Data\Managed, replacing your existing dlls (other Unity games, wherver your telemetry dlls are put them there and replace the originals. Maybe take a backup, who knows?).  Also, if you are playing Kerbal, please run the config patcher script for your platform to attain the best silence. (.cmd for windows, .sh for *nix/OSX)
  
 Why is the release for 1.7 still transmiting some data!?
 
